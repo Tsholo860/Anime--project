@@ -6,8 +6,12 @@ body{
     max-width: 1400px;
     margin: 0 auto;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/2634188.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/wp9129759.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -16,8 +20,8 @@ header{
 }
 
 header h1{
-    font-weight: 700;
-    font-size: 96px;
+    font-weight:500;
+    font-size: 56px;
     line-height: 1.5;
     margin:0;
 }
@@ -48,7 +52,49 @@ header a {
     background: white;
     padding: 16px 32px;
 }
-@media (max-width: 800px) {
+footer{
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(./images/2634188.jpg);
+    color: white;
+    text-align: center;
+    padding: 32px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+footer h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+
+}
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px;
+    opacity: 0.9;
+    line-height: 1.2;
+
+}
+footer ul{
+    padding: 0;
+}
+footer li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer a {
+    color: white;
+    opacity: 0.8;
+}
+@media (max-width: 960px) {
     header h1 {
         font-size: 48px;
 
