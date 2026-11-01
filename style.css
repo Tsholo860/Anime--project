@@ -9,6 +9,7 @@ body{
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap:64px;
 }
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/wp9129759.jpg);
@@ -77,7 +78,6 @@ footer h3{
 footer p {
     font-weight: 400;
     font-size: 16px;
-    margin: 24px;
     opacity: 0.9;
     line-height: 1.2;
 
