@@ -8,8 +8,18 @@ body{
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+   grid-template-columns: 1fr 2fr 2fr;
     grid-gap:64px;
+}
+.grid-2-column{
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid-3-column{
+    grid-template-columns: 1fr 2fr 2fr;
+}
+.img-responsive{
+    max-width: 100%;
 }
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/wp9129759.jpg);
@@ -53,6 +63,36 @@ header a {
     background: white;
     padding: 16px 32px;
 }
+main{
+    background-color: rgb(246, 232, 232);
+}
+main h2{
+    margin: 0;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    opacity: 0.4;
+    color: #270244;
+    text-transform: uppercase;
+}
+main h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #270244; 
+    margin: 0;
+
+}
+main p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #270244;
+    opacity: 0.7;
+}
+
 footer{
     background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(./images/2634188.jpg);
     color: white;
@@ -67,6 +107,7 @@ footer{
 section{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0  ;
 
 }
 footer h3{
@@ -108,5 +149,12 @@ footer a {
     header a {
         font-size: 16px;
         padding: 12px 24px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+    section {
+        padding: 30px ;
     }
 }
