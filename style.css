@@ -15,12 +15,47 @@ body{
     grid-template-columns: 1fr 1fr;
 
 }
-.grid-3-column{
+.grid-3-column-with-first-narrow{
     grid-template-columns: 1fr 2fr 2fr;
 }
-.img-responsive{
-    max-width: 100%;
+.grid-3-column{
+    grid-template-columns: 1fr 1fr 1fr;
 }
+.img-responsive{
+    width: 100%;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}   
+.card{
+    background-color: white;
+    margin: 30px 0 ;
+
+}
+.card-body{
+padding: 30px;
+}
+.card-footer{
+    padding: 0 30px 20px;
+
+}
+
+.btn{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px ;
+    background-color: #c6a1e1;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/wp9129759.jpg);
     background-repeat: no-repeat;
@@ -84,6 +119,25 @@ main h3{
     margin: 0;
 
 }
+
+main h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #270244;
+    margin: 0;
+
+
+}
+main h5{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    color: #270244;
+    margin: 0;
+
+
+}
 main p{
     font-style: normal;
     font-weight: 400;
@@ -96,19 +150,21 @@ main p{
 footer{
     background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(./images/2634188.jpg);
     color: white;
-    text-align: center;
-    padding: 32px 0;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
 
 }
 
 section{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0  ;
+    padding: 100px  ;
+    
 
+}
+section.secondary{
+    background-color: rgb(250, 221, 234);
+    
 }
 footer h3{
     font-weight: 700;
@@ -146,9 +202,8 @@ footer a {
     header h3 {
         font-size: 16px;
     }
-    header a {
-        font-size: 16px;
-        padding: 12px 24px;
+    header  {
+        padding: 60px 0;
     }
     .grid {
         grid-template-columns: 1fr;
