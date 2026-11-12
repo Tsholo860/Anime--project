@@ -106,11 +106,12 @@ header a {
     letter-spacing: 5px;
     margin : 0;
     margin-top: 32px;
-    color: #272044;
+    color: #55300d;
     text-align: center;
     letter-spacing: 5px;
     text-decoration: none;
-    background: white;
+    border-radius: 24px;
+    background: rgb(201, 154, 78);
     padding: 16px 32px;
 }
 main{
